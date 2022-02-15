@@ -1,0 +1,99 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "text": "原地站立抬膝",
+      "weight": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "reminder": true,
+      "left_shoulder": 0,
+      "right_shoulder": 0,
+      "left_arm": 0,
+      "right_arm": 0,
+      "left_knee": 1,
+      "right_knee": 1
+    },
+    {
+      "id": "2",
+      "text": "肱二頭肌手臂屈舉左",
+      "weight": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "reminder": true,
+      "left_shoulder": 0,
+      "right_shoulder": 0,
+      "left_arm": 1,
+      "right_arm": 0,
+      "left_knee": 0,
+      "right_knee": 0
+    },
+    {
+      "id": "3",
+      "text": "肱二頭肌手臂屈舉右",
+      "weight": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "reminder": false,
+      "left_shoulder": 0,
+      "right_shoulder": 0,
+      "left_arm": 0,
+      "right_arm": 1,
+      "left_knee": 0,
+      "right_knee": 0
+    },
+    {
+      "id": "bA3B_Vx",
+      "text": "仰臥起坐",
+      "weight": [
+        0,
+        0,
+        1.7,
+        1.4,
+        0,
+        0
+      ],
+      "reminder": true,
+      "left_shoulder": 0,
+      "right_shoulder": 0,
+      "left_arm": 1.7,
+      "right_arm": 1.4,
+      "left_knee": 0,
+      "right_knee": 0
+    },
+    {
+      "id": "EXe8MXh",
+      "text": "dsfdsfs",
+      "weight": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "left_shoulder": 1,
+      "right_shoulder": 0,
+      "left_arm": 1,
+      "right_arm": 0,
+      "left_knee": 0,
+      "right_knee": 0,
+      "reminder": false
+    }
+  ]
+}

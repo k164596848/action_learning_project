@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "原地站立抬膝",
+      "weight": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "reminder": true,
+      "left_shoulder": 0,
+      "right_shoulder": 0,
+      "left_arm": 0,
+      "right_arm": 0,
+      "left_knee": 1,
+      "right_knee": 1,
+      "jsonpath": "flask_backend/json/原地站立抬膝"
+    },
+    {
+      "id": 2,
+      "text": "肱二頭肌手臂屈舉右",
+      "weight": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "reminder": true,
+      "left_shoulder": 0,
+      "right_shoulder": 0,
+      "left_arm": 0,
+      "right_arm": 1,
+      "left_knee": 0,
+      "right_knee": 0,
+      "jsonpath": "flask_backend/json/肱二頭肌手臂屈舉右"
+    },
+    {
+      "id": 3,
+      "text": "肱二頭肌手臂屈舉左",
+      "weight": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "reminder": true,
+      "left_shoulder": 0,
+      "right_shoulder": 0,
+      "left_arm": 1,
+      "right_arm": 0,
+      "left_knee": 0,
+      "right_knee": 0,
+      "jsonpath": "flask_backend/json/肱二頭肌手臂屈舉左"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+visual sutdio 請安裝 professional版，其他板會有跑不動的問題
+openopse下載 release版本後，請點選models資料夾中的 getmodel.bat，下載model後才能使用
+建議使用openpose 16.0 以下的版本，17.0目前測試起來有錯誤(VS有問題)

@@ -1,0 +1,11 @@
+aiohttp-swagger
+aiohttp[speedups]
+fastdtw
+networkx
+numpy
+opencv-python
+pandas
+pillow
+scipy
+matplotlib 
+dtw-python

@@ -1,0 +1,47 @@
+<label>LEFT_SHOULDER</label>
+      <input type="checkbox" @click="clickCheckbox(parts[0])"  :id="parts[0]"  :checked="show_updtask.left_shoulder" />
+      <input 
+        type="text" 
+        id='left_shoulder_input'
+        v-model="left_shoulder" 
+        :placeholder='show_updtask.left_shoulder' 
+      />
+      <p>{{left_shoulder}}</p>
+    </div>
+    <div class="form-control form-control-check">
+      <label>RIGHT_SHOULDER</label>
+
+      <input type="checkbox" 
+        @click="clickCheckbox(parts[1])" 
+        :id="parts[1]" 
+        :checked="show_updtask.right_shoulder!=0?1:0 " 
+      />
+      <input 
+        type="text" 
+        id="right_shoulder_input" 
+        v-model="right_shoulder" 
+        :placeholder="show_updtask.right_shoulder" 
+      />
+      <p>{{right_shoulder}}</p>
+    </div>
+    <div class="form-control form-control-check">
+      <label>LEFT_ARM</label>
+      <input type="checkbox" id='left_arm' :checked="show_updtask.left_arm!=0?1:0"  />
+      <input type="text" :placeholder="show_updtask.left_arm" />
+    </div>
+    <div class="form-control form-control-check">
+      <label>RIGHT_ARM</label>
+      <input type="checkbox" id='right_arm' :checked="show_updtask.right_arm!=0?1:0"/>
+      <input type="text" :placeholder="show_updtask.right_arm" />
+    </div>
+
+    <div class="form-control form-control-check">
+      <label>LEFT_KEEN</label>
+      <input type="checkbox" id='left_leg' :checked="show_updtask.left_leg"/>
+      <input type="text" :placeholder="show_updtask.left_leg" />
+    </div>
+    <div class="form-control form-control-check">
+      <label>RIGHT_KEEN</label>
+      <input type="checkbox" id='right_leg' :checked="show_updtask.right_leg!=0?1:0"/>
+      <input type="text" :placeholder="show_updtask.right_leg" />
+    </div>

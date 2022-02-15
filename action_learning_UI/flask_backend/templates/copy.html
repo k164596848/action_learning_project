@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <div id='test'></div>
+       
+        <div id="response"></div>
+
+        <button id="btn" style='background:blue'  text='add action' color='red' class="btn">
+            add action
+        </button>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+
+    <!-- using javascript for the event's driven-->
+    <script type="text/javascript">
+        window.onload = function () {
+            $('div#test').append("xxxx");
+        }
+
+
+        $('button#btn').click(function () {
+            $.ajax({
+                url: "/tasks/",
+                type: "GET",
+                success: function (resp) {
+                    console.log(resp.data)
+                    $('div#response').html(resp.data);
+                    // $('div#response').append(resp.data);
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    #app {
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        color: #2c3e50;
+        margin-top: 60px;
+    }
+
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+
+    .container {
+        max-width: 80%;
+        margin: 30px auto;
+        overflow: auto;
+        min-height: 300px;
+        border: 1px solid steelblue;
+        padding: 30px;
+        border-radius: 5px;
+    }
+
+    .btn {
+        display: inline-block;
+        background: #000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: inherit;
+    }
+
+    .btn:focus {
+        outline: none;
+    }
+
+    .btn:active {
+        transform: scale(0.98);
+    }
+
+    .btn-block {
+        display: block;
+        width: 100%;
+    }
+
+    img {
+        align-items: flex-start;
+
+    }
+</style>
