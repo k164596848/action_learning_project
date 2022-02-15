@@ -7,12 +7,26 @@
 
 # Rusult 
 
-- actions estimation 
+### Unity Plugin
 
-- different a capture angle could work  
 
-- multiple person action reconigtion and estimation
 
+- Actions estimation 
+<p align="center">
+ <img src="doc/action_estimation.gif" width="360">    
+</p>
+
+- Different capture angle could work 
+
+<p align="center">
+ <img src="doc/multiangle.gif" width="360">    
+</p>
+
+- Multiple person action reconigtion and estimation
+
+<p align="center">
+ <img src="doc/multiperson.gif" width="360">    
+</p>
 
 
 # Limitaions 
