@@ -13,7 +13,7 @@ def recoginition(tester):
     # the json file path need put into data table 
     
     # loading json file content
-    path = "../action_learning_UI/vue_forntend/db.json"
+    path = "../action_learning_UI/vue_frontend/db.json"
     actions:List[Dict[str,str]]=load(open(path, encoding="utf-8"))["tasks"]
     action_candidate = {}
     for action in actions:

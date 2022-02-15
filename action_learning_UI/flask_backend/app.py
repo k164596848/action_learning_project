@@ -119,7 +119,7 @@ def otherpage():
 
 @app.route('/tasks', methods=['GET','OPTIONS',"PSOT"])
 def get_tasks():
-    path= "../vue_forntend/db.json"
+    path= "../vue_frontend/db.json"
     json_data = json.load(open(path,encoding='utf-8'))
     
     tasks = json_data['tasks']

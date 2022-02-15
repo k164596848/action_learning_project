@@ -15,10 +15,10 @@ pip -V
 
 ### Node js 
 - please install [Node.js](https://nodejs.org/zh-tw/download/) , the version is node-v14.17.1-x64.msi   
-- open VSCode, Nodejs and install some packages, more detail pls see [npm_requirement](vue_forntend/npm_requirement.txt) 
+- open VSCode, Nodejs and install some packages, more detail pls see [npm_requirement](vue_frontend/npm_requirement.txt) 
 
 ```bash
-cd vue_forntend
+cd vue_frontend
 npm install "packages name"
 ```
 - if you want to study more detail about VUE .js 
@@ -26,7 +26,7 @@ npm install "packages name"
 - the [Vue cli](https://cli.vuejs.org/migrating-from-v3/) document , let you know the VUE Command Line Interface 
 - use  following cmd
 ```bash
-cd vue_forntend
+cd vue_frontend
 npm install vue@next
 npm i -g @vue/cli
 npm i -g json-server
@@ -54,13 +54,13 @@ ipconfig
 
 ### Run the user interface 
 - first , make sure the port 8080, 5000, 3000, 5001 is avaliable
-- open a new  terminal in the ***vue_forntend*** folder in the action_learning_UI folder
-- when first activate ***vue_forntend*** you should use "[npm run build]()" cmd to create the dist folder.
+- open a new  terminal in the ***vue_frontend*** folder in the action_learning_UI folder
+- when first activate ***vue_frontend*** you should use "[npm run build]()" cmd to create the dist folder.
 ```bash
 npm run serve
 npm run build    #(first time use)
 ```
-- open another terminal in the same folder ***(vue_forntend)*** in the action_learning_UI folder
+- open another terminal in the same folder ***(vue_frontend)*** in the action_learning_UI folder
 ```bash
 npm run jsonserver
 ```
