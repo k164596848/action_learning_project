@@ -1,8 +1,13 @@
 # Action_Learning_Project
+## Introduction
 - This project is for action estimation without any senser, it only use the video to estimate your action performance. The project have two part, one is the [UI system]( action_learning_UI ) , another is the [Core system](action_learning).
 
 
-# Result 
+## Prerequisites
+install python3.8, openpose, Vue3, Flask, and some packages.
+
+
+## Result 
 
 ### Actions estimation 
 
